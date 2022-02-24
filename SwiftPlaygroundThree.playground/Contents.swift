@@ -22,3 +22,17 @@ for name in fruitNames{
 
 //Part 8: Introduction to array indexes
 print(fruitNames[1])
+
+//Part 9: On My Own
+
+var expensiveVehicles: [String]
+
+expensiveVehicles = ["Batmobile", "Batcycle", "Batcopter", "Batplane", "Batwing", "Batboat", "Batsub", "Batrocket"]
+
+print("The \(expensiveVehicles) is a very expansive vehicle")
+
+for name in expensiveVehicles{
+    print(name + " is a very expensive vehicle")
+}
+
+print(expensiveVehicles[0])
